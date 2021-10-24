@@ -1,0 +1,582 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Fashion Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- inicio del header  -->
+
+<header class="header">
+
+
+	<div class="image">
+		<a href="#xd"><img src="image/imagen.png"></a>
+
+	</div>
+
+    
+
+    <nav class="navbar">
+        <a href="#home">Menu</a>
+        <a href="#products">productos</a>
+        <a href="#featured">Mas ropa</a>
+        <a href="#contact">contactos</a>
+        
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="busca aquí..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- fin del header -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide" style="background:url(image/banner1.jpg) no-repeat">
+                <div class="content">
+                    <span></span>
+                    <h3>Ropa de mujer</h3>
+                    <a href="#" class="btn">Compra ahora</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background:url(image/banner2.jpg) no-repeat">
+                <div class="content">
+                    <span></span>
+                    <h3>Ropa de hombre</h3>
+                    <a href="#" class="btn">Compra ahora</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background:url(image/banner3.jpg) no-repeat">
+                <div class="content">
+                    <span></span>
+                    <h3>Ropa de niño</h3>
+                    <a href="#" class="btn">Compra ahora</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- fin del menu -->
+
+<!-- banner section starts  -->
+
+<section class="banner-container">
+
+    <div class="banner">
+        <img src="image/shop_banner_img1.jpg" alt="">
+        <div class="content">
+            <span>oferta especial</span>
+            <h3> Descuento 50%</h3>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div>
+    
+    <div class="banner">
+        <img src="image/shop_banner_img2.jpg" alt="">
+        <div class="content">
+            <span>Oferta especial</span>
+            <h3>Descuento 50%</h3>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- banner section ends -->
+
+<!-- products section starts  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> productos </h1>
+
+    <div class="filter-buttons">
+        <div class="buttons active" data-filter="all">todo</div>
+        <div class="buttons" data-filter="arrivals">lo mas nuevo </div>
+        <div class="buttons" data-filter="featured">exclusivo</div>
+        <div class="buttons" data-filter="special">ofertas especiales</div>
+        <div class="buttons" data-filter="seller">mejores prendas</div>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box" data-item="featured">
+            <div class="buy">
+                <a href="#"> Comprar </a>
+            </div>
+            <div class="image">
+                <img src="image/product_img1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Una Karem</h3>
+                <div class="price">
+                    <div class="amount">$20k</div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="box" data-item="special">
+        	<div class="buy">
+                <a href="#"> Comprar </a>
+            </div>
+            
+            <div class="image">
+                <img src="image/product_img2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Un Npalabra fachero</h3>
+                <div class="price">
+                    <div class="amount">$20k</div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="xd" class="box" data-item="seller">
+           <div class="buy">
+                <a href="#"> Comprar </a>
+            </div>
+            <div class="image">
+                <img src="image/product_img3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>White mexican </h3>
+                <div class="price">
+                    <div class="amount">$20k</div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="box" data-item="arrivals">
+            <div class="buy">
+                <a href="#"> Comprar </a>
+            </div>
+            <div class="image">
+                <img src="image/product_img4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>niñito de manga</h3>
+                <div class="price">
+                    <div class="amount">$20k</div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="box" data-item="featured">
+            <div class="buy">
+                <a href="#"> Comprar </a>
+            </div>
+            <div class="image">
+                <img src="image/product_img5.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Una pela' con un bogso</h3>
+                <div class="price">
+                    <div class="amount">$20k</div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="box" data-item="arrivals">
+            <div class="buy">
+                <a href="#"> Comprar </a>
+            </div>
+            <div class="image">
+                <img src="image/product_img6.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Estudiante de derecho</h3>
+                <div class="price">
+                    <div class="amount">$20k</div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="box" data-item="special">
+            <div class="buy">
+                <a href="#"> Comprar </a>
+            </div>
+            <div class="image">
+                <img src="image/product_img7.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>vieja con combrero</h3>
+                <div class="price">
+                    <div class="amount">$20k</div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="box" data-item="seller">
+           <div class="buy">
+                <a href="#"> Comprar </a>
+            </div>
+            <div class="image">
+                <img src="image/product_img8.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>pelao de bogota</h3>
+                <div class="price">
+                    <div class="amount">$20k</div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="box" data-item="seller">
+            <div class="buy">
+                <a href="#"> Comprar </a>
+            </div>
+            <div class="image">
+                <img src="image/product_img9.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>La que le gusta al niñito de manga</h3>
+                <div class="price">
+                    <div class="amount">$20k</div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="box" data-item="featured">
+            <div class="buy">
+                <a href="#"> Comprar </a>
+            </div>
+            <div class="image">
+                <img src="image/product_img10.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>jajajaj, cule risa jopo</h3>
+                <div class="price">
+                    <div class="amount">$20k</div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="box" data-item="special">
+            <div class="buy">
+                <a href="#"> Comprar </a>
+            </div>
+            <div class="image">
+                <img src="image/product_img11.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Otra karem</h3>
+                <div class="price">
+                    <div class="amount">$20k</div>
+                    
+                </div>
+               
+            </div>
+        </div>
+
+        <div class="box" data-item="seller">
+           <div class="buy">
+                <a href="#"> Comprar </a>
+            </div>
+            <div class="image">
+                <img src="image/product_img12.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>No sé quien le dijo que podia ser modelo, xd</h3>
+                <div class="price">
+                    <div class="amount">$20k</div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- products section ends -->
+
+<!-- deal section starts  -->
+
+<section class="deal">
+
+    <div class="image">
+        <img src="image/tranding_img.png" alt="">
+    </div>
+
+    <div class="content">
+        <span>Lorem ipsum dolor </span>
+        <h3>Lorem ipsum dolor sit </h3>
+        <p>50% de descuento</p>
+        <a href="#" class="btn">comprar</a>
+    </div>
+
+</section>
+
+<!-- deal section ends -->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> buenos productos </h1>
+
+    <div class="swiper featured-slider">
+        
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="buy">
+                 	<a href="#">Comprar</a>
+                </div>
+                <div class="image">
+                    <img src="image/product_img1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>NO sé idk</h3>
+                    <div class="price">
+                        <div class="amount">$20k</div>
+                      
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="buy">
+                 	<a href="#">Comprar</a>
+                </div>
+                <div class="image">
+                    <img src="image/product_img2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>NO sé idk</h3>
+                    <div class="price">
+                        <div class="amount">$20k</div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="buy">
+                 	<a href="#">Comprar</a>
+                </div>
+                <div class="image">
+                    <img src="image/product_img3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>xddddd</h3>
+                    <div class="price">
+                        <div class="amount">$20k</div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="buy">
+                 	<a href="#">Comprar</a>
+                </div>
+                <div class="image">
+                    <img src="image/product_img4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>xdddddd</h3>
+                    <div class="price">
+                        <div class="amount">$20k</div>
+                        
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="buy">
+                 	<a href="#">Comprar</a>
+                </div>
+                <div class="image">
+                    <img src="image/product_img5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>xddddddd</h3>
+                    <div class="price">
+                        <div class="amount">$20k</div>
+                        
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="buy">
+                 	<a href="#">Comprar</a>
+                </div>
+                <div class="image">
+                    <img src="image/product_img6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>xddddd</h3>
+                    <div class="price">
+                        <div class="amount">$20k</div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> Contactanos </h1>
+
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Direccion</h3>
+            <p>recreo</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>email</h3>
+            <p>luistilve09@hotmail.com</p>
+            <p>tilveluis86@gmail.com</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>Telefono</h3>
+            <p>123-456-7890</p>
+            <p>111-222-3333</p>
+        </div>
+
+
+    </div>
+
+    <div class="row">
+
+       
+
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7848.791252619161!2d-75.47599265651924!3d10.39011887313293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62430c32b6337%3A0x76b9e441b0c03872!2sEl%20Recreo%2C%20Cartagena%2C%20Provincia%20de%20Cartagena%2C%20Bol%C3%ADvar!5e0!3m2!1ses!2sco!4v1634544938327!5m2!1ses!2sco" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>"
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+       
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        
+        <a href="#" class="fab fa-instagram"></a>
+    </div>
+
+    <div class="credit"> &copy; copyright @ 2021 by <span>Von</span> </div>
+    
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
